@@ -40,3 +40,6 @@ _Editácia parcely:_ **priemerná zložitosť: O(log2n)        najhoršia zloži
 _Vyradenie nehnuteľnosti:_ **priemerná zložitosť: O(log2m) + O(a)        najhoršia zložitosť: O(m) + O(a)**
 
 _Vyradenie parcely:_ **priemerná zložitosť: O(log2n) + O(b)        najhoršia zložitosť: O(n) + O(b)**
+
+
+**AKÉKOĽVEK KOPÍROVANIE ČASTÍ ALEBO CELÉHO ZDROJOVÉHO KÓDU JE ZAKÁZANÉ!** 
