@@ -24,11 +24,19 @@ Jednotlivé vrcholy stromu obsahujú pole kľúčov, ktoré sú typu double a d
 **b** – _počet prvkov v zozname nehnuteľností, ktoré majú rovnakú GPS pozíciu ako parcela, v ktorej sa tento zoznam nachádza_
 
 _Vyhľadanie nehnuteľností:_ **priemerná zložitosť: O(log2m)        najhoršia zložitosť: O(m)**
+
 _Vyhľadanie parciel:_ **priemerná zložitosť: O(log2n)        najhoršia zložitosť: O(n)**
+
 _Vyhľadanie všetkých objektov:_ **priemerná zložitosť: O(log2m) + O(log2n)        najhoršia zložitosť: O(m) + O(n)**
+
 _Pridanie nehnuteľnosti:_ **priemerná zložitosť: O(log2m)        najhoršia zložitosť: O(m)**
+
 _Pridanie parcely:_ **priemerná zložitosť: O(log2n)        najhoršia zložitosť: O(n)**
+
 _Editácia nehnuteľnosti:_ **priemerná zložitosť: O(log2m)        najhoršia zložitosť: O(m)**
+
 _Editácia parcely:_ **priemerná zložitosť: O(log2n)        najhoršia zložitosť: O(n)**
+
 _Vyradenie nehnuteľnosti:_ **priemerná zložitosť: O(log2m) + O(a)        najhoršia zložitosť: O(m) + O(a)**
+
 _Vyradenie parcely:_ **priemerná zložitosť: O(log2n) + O(b)        najhoršia zložitosť: O(n) + O(b)**
